@@ -1,0 +1,73 @@
+/* GENERAL STYLES */
+:root {
+  --blue: #404fed;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: var(--blue);
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--blue);
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  width: 20vw;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+nav {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: left;
+  width: 50vw;
+  padding: 20vh 1em 0 1em;
+  gap: 10px;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50vw;
+  gap: 1em;
+  padding: 1em 0 0 1em;
+}
+.btn-container button {
+  border-radius: 2em;
+  height: 50px;
+  width: fit-content;
+}
+#black-btn {
+  background-color: black;
+  color: white;
+}
+#white-btn {
+  background-color: white;
+  color: black;
+}
+
+.background {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
